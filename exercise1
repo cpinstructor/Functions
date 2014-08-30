@@ -1,0 +1,16 @@
+/*Activity 4 : The following function converts temperature in celsius to temperature in faherenheit. 
+Complete the program by writing proper main. */
+
+
+
+/* function definition * /
+
+float tempConverter( float tempInCelsius)
+{
+
+  float faherntemp;
+
+  faherntemp = tempInCelsius * 9.0/5 + 32;
+
+  return faherntemp;
+}
