@@ -1,0 +1,23 @@
+/*
+Activity 5 : The following program is supposed to convert distance in miles into equivalent kilo meters. 
+Complete the program by adding the appropriate function.
+*/
+
+
+#include <stdio.h>
+
+float distnaceInKms( float miles);
+
+
+int main(void)
+{
+    float   miles,kms;
+    
+
+    scanf("%f", &miles);
+
+    kms =  distanceInKms( miles);
+    
+    printf(" distance in Miles =  and equivalenr distance in Kms  = %f\n",miles,kms);
+
+    return 0;
